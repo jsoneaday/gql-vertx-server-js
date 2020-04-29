@@ -1,0 +1,25 @@
+{
+  "name": "gql-vertx-server-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "es4x test index.test.js",
+    "postinstall": "es4x install",
+    "start": "es4x -Desm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vertx/core": "^3.9.0",
+    "@vertx/web": "^3.9.0",
+    "@vertx/web-graphql": "^3.9.0",
+    "es4x-pm": "^0.11.0",
+    "typescript": "^3.8.3"
+  },
+  "mvnDependencies": [
+    "io.vertx:vertx-web-graphql:3.9.0",
+    "com.graphql-java:graphql-java:14.0"
+  ]
+}
